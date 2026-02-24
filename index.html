@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>RGM_SSS</title>
+
+<style>
+body {
+  font-family: Arial;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.column {
+  border: 2px solid black;
+  padding: 15px;
+  min-height: 200px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>offHead</h1>
+
+<div class="container">
+
+  <div class="column">
+    <h3>Vorschriften</h3>
+    <p>regulations on regime knots</p>
+    <input type="password" placeholder="password">
+  </div>
+
+  <div class="column">
+    <h3>information collection 24-26</h3>
+    <p>protocols 2024+</p>
+    <input type="password" placeholder="password">
+  </div>
+
+  <div class="column">
+    <h3>A gift plot for newborn hair-biters</h3>
+    <p>list of files needed for reading</p>
+    <input type="password" placeholder="password">
+  </div>
+
+  <div class="column">
+    <h3>regulations 2</h3>
+    <p>Regulations on 26-27-28</p>
+    <input type="password" id="secretPass">
+    <button onclick="checkPassword()">enter</button>
+  </div>
+
+</div>
+
+<script>
+function checkPassword() {
+  var pass = document.getElementById("secretPass").value;
+
+  if (pass === "KRMisWNDBrech868oftheredspottedfluffies") {
+    window.location.href = "page2.html";
+  } else {
+    alert("fuck off slut");
+  }
+}
+</script>
+
+</body>
+</html>
